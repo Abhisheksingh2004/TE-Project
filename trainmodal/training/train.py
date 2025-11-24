@@ -19,7 +19,9 @@ model.fit(X, y)
 
 dump(model, "../model/india.pkl")
 
-
+print('============================================================')
+print('                    India Model                             ')
+print('============================================================')
 print("Intercept:", model.intercept_)
 print("Slope:", model.coef_[0])
 

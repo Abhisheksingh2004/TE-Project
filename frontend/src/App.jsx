@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/predictor" element={<Predictor />} />
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<Predictor />} />
         </Routes>
       </div>
     </BrowserRouter>

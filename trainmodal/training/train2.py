@@ -20,6 +20,10 @@ model.fit(X, y)
 # Save model
 dump(model, "../model/world.pkl")
 
+print('============================================================')
+print('                    World Model                             ')
+print('============================================================')
+
 # Print model parameters
 print("Intercept:", model.intercept_)
 print("Slope:", model.coef_[0])

@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link to="/dashboard" className="flex items-center">
+            <Link to="/predictor" className="flex items-center">
               <span className="text-white font-bold text-xl">Bolt AI</span>
             </Link>
           </div>
@@ -45,6 +45,7 @@ const Navbar = () => {
             >
               Predictor
             </Link>
+
             <Link
               to="/dashboard"
               className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -65,6 +66,7 @@ const Navbar = () => {
               >
                 Predictor
               </Link>
+
               <Link
                 to="/dashboard"
                 className="text-gray-300 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
